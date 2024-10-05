@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <title>Practica 10</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        article {
+            background-color: rgb(199, 247, 247);
+        }
+
+        nav {
+            background-color: rgb(56, 55, 55);
+        }
+
+        footer {
+            background-color: rgb(34, 34, 34);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="caracteristicas.html">caracteristicas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="galeria.html">Galeria</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html" tabindex="-1" aria-disabled="true">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <article>
+        <div class="container mt-4">
+            <h1>Galería de Proyectos</h1>
+            <p>A continuación, se muestran algunos proyectos destacados en los que hemos utilizado frameworks para optimizar el desarrollo.</p>
+
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="img/imagen1.jpg" class="card-img-top" alt="Proyecto 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Desarrollo Web</h5>
+                            <p class="card-text">Utilizamos frameworks como React y Angular para crear aplicaciones web interactivas y eficientes.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="img/imagen2.jpg" class="card-img-top" alt="Proyecto 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Desarrollo de Software</h5>
+                            <p class="card-text">Frameworks como Spring y Django nos permiten desarrollar aplicaciones de forma ágil y estructurada.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="img/imagen3.jpg" class="card-img-top" alt="Proyecto 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Administración de Bases de Datos</h5>
+                            <p class="card-text">Usamos ORM frameworks como Hibernate para facilitar la interacción con bases de datos en aplicaciones.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <h5>Contacto</h5>
+            <p>Email: ana.gomez54@unach.mx | Tel: 961 134 7233</p>
+            <p>&copy; 2024 ANA KAREN GOMEZ ESPINOSA.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
